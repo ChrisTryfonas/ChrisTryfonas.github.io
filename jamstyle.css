@@ -1,0 +1,149 @@
+body{
+    font-family:'Karla', sans-serif ;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornflowerblue;
+
+}
+
+.fa-compact-disc{
+    font-size: 2.5rem;
+    color: cornflowerblue;
+    
+}
+.navbar-brand-primary:hover{
+    text-decoration: none;
+}
+
+.navbar-nav a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: cornflowerblue;
+    text-transform: uppercase;
+    
+}
+.collapse .navbar-nav .nav-item a:hover{
+    color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    /* width: max-content;
+    padding: 0.2rem; */  /*if ass these 2 rows the text will jump when hovering */
+}
+
+/* MAIN THEME (1 SLIDE ONLY) */
+.carousel-caption{
+   
+    position: absolute;
+    top: 10%;
+    left: 2%;
+    width: 50%;
+    height: max-content;
+    border-radius: 1rem;
+    background-color: rgba(0,0,0,0.5);
+    
+    
+}
+
+/* CARDS */
+
+
+@media screen and (max-width:990px){ /* I want below lg screen size the 3 cards to be in the middle of the page width*/
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.card-body{
+    
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.card-body p{
+    font-size: 1.5rem;
+}
+
+.card-body h5{
+    font-size: 2.5rem;
+    margin: 1rem 0 2rem 0;
+}
+
+
+
+.trial {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: black;
+}
+.trial .col-md-12{
+
+    font-weight: 700;
+    color: white;
+}
+
+/* devices */
+.available-devices{
+    background-color: black;
+    color: white;
+}
+.devices i{
+    font-size: 7rem;
+    color: cornflowerblue;
+    
+}
+
+
+/* STATISTICS */
+.statistics-reviews-box{
+    background-color: rgb(255, 255, 255);
+}
+.stats h2, .reviews h2{
+    font-weight: 900;
+    
+}
+
+/* REVIEWS */
+.reviews{
+    margin-top: 5%;
+    
+    border-radius: 1.5rem;
+    padding: 5rem 3rem 5rem;
+}
+
+.card-header{
+    background-color: cornflowerblue;
+    font-size: 1.4rem;
+    font-weight: 700;
+    
+   
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+}
+footer ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    
+}
+footer ul a:hover{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+footer h3{
+    color: cornflowerblue;
+}
+
+
