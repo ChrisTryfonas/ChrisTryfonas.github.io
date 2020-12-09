@@ -102,7 +102,7 @@ body{
 }
 
 /* Media query for small screens */
-@media screen and (max-width:998px){
+@media screen and (max-width:998px) and (min-width:370px){
     .carousel-caption{
         position: absolute;
         top: 10%;
