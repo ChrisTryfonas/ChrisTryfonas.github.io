@@ -53,24 +53,7 @@ body{
     border-radius: 0;
     
 }
-.caption-1{
-    position: absolute;
-    top: 30%;
-    
-}
-.caption-2{
-    position: absolute;
-    top: 20%;
-    
-}
-.caption-2 p{
-    color: rgb(240, 204, 204);
-}
-.caption-3{
-    position: absolute;
-    top: 60%;
- 
-}
+
 
 /*  For the paddings ans margins I use the pl pr ml mr etc... for ease
     alternatively it can be done by css with the classic way */
@@ -114,8 +97,45 @@ body{
     font-weight: 500;
     font-size: 1.1em;
 }
+.smallscreen{
+    display: none;
+}
 
+/* Media query for small screens */
+@media screen and (max-width:998px){
+    .carousel-caption{
+        position: absolute;
+        top: 10%;
+    }
+    .smallscreen{
+        display: block;
+    }
+    .bg-color{
+        background-color: rgba(0, 0, 0, 0.6);
+        padding-bottom: 1rem;
+        border-radius: 1rem;
+    }
 
+}
+.caption-1{
+    position: absolute;
+    top: 30%;
+    
+}
+.caption-2{
+    position: absolute;
+    top: 20%;
+    
+}
+.caption-2 p{
+    color: rgb(231, 231, 231);
+    font-size: 1.4rem;
+}
+.caption-3{
+    position: absolute;
+    top: 20%;
+ 
+}
 
 /* CARDS */
 
@@ -125,6 +145,9 @@ body{
         margin-left: auto;
         margin-right: auto;
     }
+}
+.card{
+    height: 100%;
 }
 
 .card-body{
@@ -141,8 +164,6 @@ body{
     font-size: 2.5rem;
     margin: 1rem 0 2rem 0;
 }
-
-
 
 .trial {
     padding-top: 5rem;
