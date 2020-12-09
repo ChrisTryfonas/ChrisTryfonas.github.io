@@ -1,0 +1,234 @@
+body{
+    font-family:'Karla', sans-serif ;
+}
+
+
+/* NAVBAR */
+
+.navbar{
+    background-color: black;
+}
+.navbar .navbar-brand{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: cornflowerblue;
+
+}
+
+.fa-compact-disc{
+    font-size: 2.5rem;
+    color: cornflowerblue;
+    
+}
+.navbar-brand-primary:hover{
+    text-decoration: none;
+}
+
+.navbar-nav a{
+    font-size: 1.4rem;
+    font-weight: 500;
+    color: cornflowerblue;
+    text-transform: uppercase;
+    
+}
+.collapse .navbar-nav .nav-item a:hover{
+    color: rgb(255, 255, 255);
+    border-radius: 0.5rem;
+    /* width: max-content;
+    padding: 0.2rem; */  /*if ass these 2 rows the text will jump when hovering */
+}
+
+
+/* CAROUSEL */
+.carousel-item-next,
+.carousel-item-previous,
+.carousel-item.active{
+    transition: transform 1.2s ease;
+}
+
+/* Carousel text */
+
+.carousel-item a{
+    border-radius: 0;
+    
+}
+
+
+/*  For the paddings ans margins I use the pl pr ml mr etc... for ease
+    alternatively it can be done by css with the classic way */
+.bg-color{
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-bottom: 1rem;
+    border-radius: 1rem;
+}
+.carousel-item a{
+    font-size: 1.2rem;
+    border-radius: 0.5rem;
+}
+
+.btncorn{
+    color: white;
+    background-color: cornflowerblue;
+}
+.carousel-item h1{
+    font-size: 3.2rem;
+    color: white;
+    text-shadow: 0.2rem 0.2rem 0.1rem #000000;
+    text-transform: uppercase;
+}
+
+.carousel-item h3{
+    font-size: 2.3rem;
+    font-weight: 470;
+    color: rgb(255, 255, 255);
+    text-shadow: 0.2rem 0.2rem 0.1rem #000000;
+    
+}
+
+
+.paragraph{
+    font-size: 1.7rem;
+    color: rgb(230, 230, 230);
+    font-weight: 300;
+}
+
+.our{
+    font-weight: 500;
+    font-size: 1.1em;
+}
+.smallscreen{
+    display: none;
+}
+
+/* Media query for small screens */
+@media screen and (max-width:998px){
+    .carousel-caption{
+        position: absolute;
+        top: 10%;
+    }
+    .smallscreen{
+        display: block;
+    }
+    .bg-color{
+        background-color: rgba(0, 0, 0, 0.6);
+        padding-bottom: 1rem;
+        border-radius: 1rem;
+    }
+
+}
+.caption-1{
+    position: absolute;
+    top: 30%;
+    
+}
+.caption-2{
+    position: absolute;
+    top: 20%;
+    
+}
+.caption-2 p{
+    color: rgb(231, 231, 231);
+    font-size: 1.4rem;
+}
+.caption-3{
+    position: absolute;
+    top: 20%;
+ 
+}
+
+/* CARDS */
+
+
+@media screen and (max-width:990px){ /* I want below lg screen size the 3 cards to be in the middle of the page width*/
+    .card{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+.card{
+    height: 100%;
+}
+
+.card-body{
+    
+    background-color: black;
+    color: rgb(255, 255, 255);
+}
+
+.card-body p{
+    font-size: 1.5rem;
+}
+
+.card-body h5{
+    font-size: 2.5rem;
+    margin: 1rem 0 2rem 0;
+}
+
+.trial {
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    background-color: black;
+}
+.trial .col-md-12{
+
+    font-weight: 700;
+    color: white;
+}
+
+/* devices */
+.available-devices{
+    background-color: black;
+    color: white;
+}
+.devices i{
+    font-size: 7rem;
+    color: cornflowerblue;
+    
+}
+
+
+/* STATISTICS */
+.statistics-reviews-box{
+    background-color: rgb(255, 255, 255);
+}
+.stats h2, .reviews h2{
+    font-weight: 900;
+    
+}
+
+/* REVIEWS */
+.reviews{
+    margin-top: 5%;
+    
+    border-radius: 1.5rem;
+    padding: 5rem 3rem 5rem;
+}
+
+.card-header{
+    background-color: cornflowerblue;
+    font-size: 1.4rem;
+    font-weight: 700;
+    
+   
+}
+
+/* FOOTER */
+footer{
+    background-color: black;
+}
+footer ul a{
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    
+}
+footer ul a:hover{
+    text-decoration: none;
+    color: cornflowerblue;
+}
+footer h3{
+    color: cornflowerblue;
+}
+
+

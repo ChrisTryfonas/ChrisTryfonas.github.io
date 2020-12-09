@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="author" content="Chris Tryfonas">
+        <meta name="description" content="Jam music site">
+        <meta name="keywords" content="Jam music songs groove party">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+        <link rel="stylesheet" href="jamstyle.css">
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;400&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap" rel="stylesheet">
+        <title> Music for You</title>
+
+    </head>
+
+    <body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg sticky-top">
+           <div class="brand-logo">
+              <a class="navbar-brand" href="#">Jam</a>
+              <i class="fas fa-compact-disc"></i>
+
+           </div>
+
+            <button class="navbar-toggler navbar-dark" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav mr-auto ml-auto">
+                <li class="nav-item active my-2 mx-5">
+                  <a class="nav-link" href="#">Home <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active my-2 mx-5">
+                    <a class="nav-link" href="#">Music <span class="sr-only"></span></a>
+                  </li>
+                <li class="nav-item active my-2 mx-5">
+                  <a class="nav-link" href="#">Podcasts <span class="sr-only"></span></a>
+                </li>
+                <li class="nav-item active my-2 mx-5">
+                  <a class="nav-link" href="#">Charts <span class="sr-only"></span></a>
+                </li>
+              </ul>
+              
+            </div>
+
+        </nav>
+
+          <!-- Carousel -->
+          <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel" data-interval="4000">
+            <ol class="carousel-indicators">
+              <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
+              <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
+            </ol>
+    
+            <!-- 1st slide -->
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="carousel\1.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption caption-1 d-none d-sm-block">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-8 bg-color d-none d-lg-block">
+                        <h1 class="py-3">Jam it</h1>
+                        <div class="border border-danger w-50 ml-auto mr-auto"></div>
+                        <h3 class="py-3">As simple as it gets..</h3>
+                        <a class="btn btn-danger btn-lg mr-2" href="#">view demo</a>
+                        <a class="btn btncorn btn-lg ml-2" href="#">start now</a>
+                      </div>
+                      <div class="col-10 bg-color smallscreen">
+                        
+                        <div class="border border-danger w-50 ml-auto mr-auto mt-2"></div>
+                        <p class="py-2 my-auto">Your music, our matter!</p>
+                        <div class="border border-danger w-50 ml-auto mr-auto"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+    
+              <!-- 2nd slide -->
+              <div class="carousel-item">
+                <img src="carousel/2.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption caption-2 d-none d-sm-block">
+                  <div class="container">
+                    <div class="row justify-content-center">
+                      <div class="col-7 bg-color d-none d-lg-block ">
+                        
+                        <p class="paragraph text-left">Explore the most famous podcasts among various categories such as comedy, news, sports and many others</p>
+                        <a class="btn btn-danger btn-lg text-center" href="#">Start the journey</a>
+                        
+                      </div>
+                      <div class="col-10 bg-color smallscreen">
+                        
+                        <div class="border border-danger w-50 ml-auto mr-auto mt-2"></div>
+                        <p class="py-2 my-auto">Enjoy our podcasts!</p>
+                        <div class="border border-danger w-50 ml-auto mr-auto"></div>
+                      </div>
+
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
+    
+              <!-- 3rd slide -->
+              <div class="carousel-item">
+                <img src="carousel/3.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption caption-3 d-none d-sm-block">
+                  <div class="container">
+                    <div class="row justify-content-start">
+                      <div class="col-6 bg-color d-none d-lg-block text-left pl-3">
+                        <h3>Spread the news</h3>
+                        <div class="border border-danger w-50 mr-auto mb-2"></div>
+                        <p class="paragraph">Invite your friends, grow your network and take advantage of amazing benefits.</p>
+                        <a class="btn btncorn btn-lg ml-0" href="#">Invite</a>
+                      </div>
+                      <div class="col-10 bg-color smallscreen">
+                        <div class="border border-danger w-50 ml-auto mr-auto mt-2"></div>
+                        <p class="py-2 my-auto">Expand your nertwork</p>
+                        <div class="border border-danger w-50 ml-auto mr-auto"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+    
+            <!-- Carousel previous button -->
+            <a class="carousel-control-prev" href="#carouselExampleCaptions" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <!-- Carousel next button -->
+            <a class="carousel-control-next" href="#carouselExampleCaptions" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+
+          
+
+
+
+
+
+          <!-- Cards -->
+          <div class="container py-5 cards ">
+              <div class="row ">
+                  <div class="col-lg-4 my-3 text-center">
+                      <div class="card" style="width: 18rem;">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpFXe97thmvX151TZH_vhUnA6-moSmf58iaQ&usqp=CAU" class="card-img-top" alt="...">
+                        <div class="border border-bottom w-50" ></div>
+                        <div class="card-body text-center">
+                            <h5 class="card-title">Music</h5>
+                            <p class="card-text">Despite all the songs, albums and artists, our latest version has a new feature that provides the lyrics of the songs!</p>
+                            <a href="#" class="btn btn-danger my-3">Let's Go</a>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-4 my-3 text-center ">
+                    <div class="card" style="width: 18rem;">
+                      <img height="160px" src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                      <div class="border border-bottom w-50" ></div>
+                      <div class="card-body">
+                          <h5 class="card-title">Podcasts</h5>
+                          <p class="card-text ">Keep up with your favorite podcasts producers, listen to their shows and join the live chat while on air!</p>
+                          <div class="buttn ml-auto mr-auto my-4">
+                            <a href="#" class="btn btn-danger ">Let's Go</a>
+                          </div>
+                          
+                      </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 my-3 text-center ">
+                    <div class="card" style="width: 18rem;">
+                      <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+                      <div class="border border-bottom w-50" ></div>
+                      <div class="card-body">
+                          <h5 class="card-title">Global Charts</h5>
+                          <p class="card-text">Keep up with the world's latest music trends, listen first all the new albums and be in the spotlight of the music news. </p>
+                          <div class="buttn">
+                            <a href="#" class="btn btn-danger my-3">Let's Go</a>
+
+                          </div>
+                          
+                      </div>
+                      </div>
+                </div>
+              </div>
+          </div>
+        
+
+        <!-- START TRIAL -->
+        <div class="trial">
+            <div class="container">
+                <row>
+                    <div class="col-md-12 text-center">
+                        <i class="fas fa-compact-disc"></i>
+                        <h2 class="mt-3 mb-5">Start your journey!</h2>
+                        <h3 >Take a free trial month and win a 50% discount for the next one.</h3>
+                        <a href="#" class="btn btn-danger btn-lg my-5">Free Trial</a>
+                    </div>
+
+                    <!-- <h5>Spread it to your friends, explore the combo packages and choose the ideal for your needs!</h5> -->
+                </row>
+            </div>
+        </div>
+
+        <!-- AVAILABLE DEVICES -->
+        <div class="available-devices mb-5">
+          <div class="container text-center ">
+            <div class="row ">
+                <div class="col-md-12 text-center mt-5">
+                    <h2 > Amazing streaming experience available on:</h2>
+                </div>
+                
+                <div class="col-md-4 devices my-5">
+                    <h3 class="my-3">Desktop</h3>
+                    <i class="fas fa-laptop"></i>
+                </div>
+                <div class="col-md-4 devices my-5">
+                    <h3 class="my-3">Tablet</h3>
+                    <i class="fas fa-tablet"></i>
+                </div>
+                <div class="col-md-4 devices my-5">
+                    <h3 class="my-3">Smartphone</h3>
+                    <i class="fas fa-mobile"></i>
+
+                </div>
+            </div>
+        </div>
+        </div>
+        
+
+        <!-- STATISTICS -->
+      <div class="statistics-reviews-box">
+        <div class=" container my-5">
+          <div class="row">
+            
+            <!-- Stats -->
+            <div class=" stats col-md-12 ">
+              <h2 class="my-5 text-center ">The fastest growing music platform</h2>
+              <div class="stats my-5">
+                <h4 >Users <i class="fas fa-users ml-2"></i></h4>
+                <div class="progress mb-4 mt-2" style="height: 2rem">
+                  <div class="progress-bar" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"><h4 class="my-2">7M</h4></div>
+                </div>
+              </div>
+
+              <div class="stats my-5">
+                <h4>Countries <i class="fas fa-globe-africa ml-2"></i></h4>
+                
+                <div class="progress mb-4 mt-2" style="height: 2rem">
+                  <div class="progress-bar bg-success" role="progressbar" style="width: 65%;" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"><h4 class="my-2">242</h4></div>
+                </div>
+
+              </div>
+              <div class="stats my-5">
+                <h4>Songs <i class="fas fa-music ml-2"></i></h4>
+                <div class="progress mb-4 mt-2" style="height: 2rem">
+                  <div class="progress-bar bg-warning" role="progressbar" style="width: 85%;" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100"><h4 class="my-2">24M</h4></div>
+                </div>
+
+              </div>
+              <div class="stats my-5">
+                <h4>Podcats <i class="fas fa-microphone ml-2"></i></h4>
+                <div class="progress mb-4 mt-2" style="height: 2rem">
+                  <div class="progress-bar bg-danger" role="progressbar" style="width: 35%;" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"><h4 class="my-2">1280</h4></div>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+
+      
+        <!-- REVIEWS -->
+        <div class="container reviews">
+
+            <h2 class="mb-3 text-centermy-5 text-center"> Our latest reviews</h2><br>
+            <div class="row">
+              
+              <div class="col-md-4 my-3 d-flex align-items-md-stretch ">
+                  <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Sandy J.<i class="fas fa-user ml-3"></i></div>
+                    <div class="card-body text-primary bg-white">
+                      <h5 class="card-title text-black-50">Amazing app!!</h5>
+                      <p class="card-text">One of the best music app, user friendly with excellent mobile version.</p>
+                    </div>
+                  </div>
+              </div>
+            
+  
+              <div class="col-md-4 my-3 d-flex align-items-md-stretch">
+                  <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">John V.<i class="fas fa-user ml-3"></i></div>
+                    <div class="card-body text-primary bg-white">
+                      <h5 class="card-title text-black-50">Perfect!</h5>
+                      <p class="card-text">All my music and podcasts in just one platform</p>
+                    </div>
+                  </div>
+              </div>
+  
+              <div class="col-md-4 my-3 d-flex align-items-md-stretch">
+                
+                  <div class="card border-primary mb-3" style="max-width: 18rem;">
+                    <div class="card-header">Katerina P.<i class="fas fa-user ml-3"></i></div>
+                    <div class="card-body text-primary bg-white">
+                      <h5 class="card-title text-black-50">Just what I need</h5>
+                      <p class="card-text">Keep up the good work!</p>
+                    </div>
+                  </div>  
+              </div>
+            
+            </div>
+  
+
+        </div>
+      </div>
+
+      <footer>
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h3 class=" text-white my-3">Discover</h3>
+              <div class="border  w-50 "></div>
+              <ul class="mt-3 list-unstyled">
+                <li><a href="#">Music</a></li>
+                <li><a href="#">Podcasts</a></li>
+                <li><a href="#">Albums</a></li>
+                <li><a href="#">Artists</a></li>
+              </ul>
+            </div>
+            <div class="col-md-4">
+              <h3 class=" text-white my-3">Store</h3>
+              <div class="border  w-50 "></div>
+              <ul class="mt-3 list-unstyled">
+                <li><a href="#">Student packs</a></li>
+                <li><a href="#">Family packs</a></li>
+                <li><a href="#">Gift cards</a></li>
+                <li><a href="#">Concert tickets</a></li>
+                
+              </ul>
+
+            </div>
+            <div class="col-md-4">
+              <h3 class="text-white my-3">About us</h3>
+              <div class="border w-50"></div>
+              <ul class="mt-3 list-unstyled">
+                <li><a href="#">News</a></li>
+                <li><a href="#">Careers</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div>
+          <p class="bg-dark text-right py-3 pr-5 text-white">Copyright 2020 &copy Chris Tryfonas</p>
+        </div>
+      </footer>
+
+
+
+      <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+      <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>     
+
+         
+    </body>
+</html>
